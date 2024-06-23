@@ -16,8 +16,6 @@ The purpose of this repository is to demonstrate how [ZenML](https://github.com/
 Let's jump into the Python packages you need. Within the Python environment of your choice, run:
 
 ```bash
-git clone https://github.com/zenml-io/zenml-projects.git
-cd zenml-projects/customer-satisfaction
 pip install -r requirements.txt
 ```
 
@@ -29,6 +27,9 @@ pip install zenml["server"]
 zenml up ---> use this if you are using MacOS Or Linux or else
 zenml up --blocking ---> for Windows users, zenml doesn't support windows, so you have to use it blocking mode
 ```
+zenml up ---> use this if you are using MacOS Or Linux or else
+zenml up --blocking ---> for Windows users, zenml doesn't support windows, so you have to use it blocking mode
+
 
 If you are running the `run_deployment.py` script, you will also need to install some integrations using ZenML:
 
