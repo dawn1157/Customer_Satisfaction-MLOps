@@ -24,11 +24,14 @@ to observe your stacks, stack components and pipeline DAGs in a dashboard interf
 
 ```bash
 pip install zenml["server"]
-zenml up ---> use this if you are using MacOS Or Linux or else
-zenml up --blocking ---> for Windows users, zenml doesn't support windows, so you have to use it blocking mode
+zenml up
 ```
-zenml up ---> use this if you are using MacOS Or Linux or else
-zenml up --blocking ---> for Windows users, zenml doesn't support windows, so you have to use it blocking mode
+or
+```bash
+zenml up --blocking 
+```
+"zenml up" ---> use this if you are using MacOS Or Linux or else, 
+"zenml up --blocking" ---> for Windows users, zenml doesn't support windows, so you have to use it blocking mode, i am using Windows so i am using it blocking mode
 
 
 If you are running the `run_deployment.py` script, you will also need to install some integrations using ZenML:
